@@ -10,7 +10,7 @@ const User=require('../src/model/User')
 
 const app=express();
 
-const port=process.env.BASE_URL||process.env.PORT;
+const port=8000||process.env.PORT;
 
 app.use(cors());
 
